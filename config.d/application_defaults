@@ -25,3 +25,6 @@ for_window [title="Picture-in-Picture"] floating enable, sticky enable
 for_window [title="nmtui"] floating enable,  resize set width 50 ppt height 70 ppt
 for_window [app_id="xsensors"] floating enable
 for_window [title="Save File"] floating enable
+
+# apps
+for_window [title="KeePassXC"] floating enable, resize set width 50 ppt height 60 ppt
