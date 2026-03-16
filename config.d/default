@@ -16,6 +16,9 @@ bindsym $mod+Shift+n exec swaync-client -t -sw
 # Exit sway (logs you out of your Wayland session)
 bindsym $mod+Shift+e exec swaynag -t warning -m 'Want to exit sway?' -B 'Yes, exit sway' 'swaymsg exit'
 
+# lock screen
+bindsym Ctrl+Shift+l exec swaylock
+
 # Your preferred application launcher
 set $menu "~/.config/rofi/launcher.sh"
 
