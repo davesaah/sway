@@ -24,3 +24,5 @@ exec --no-startup-id /usr/lib/pam_kwallet_init
 
 exec systemctl --user import-environment XDG_SESSION_TYPE XDG_CURRENT_DESKTOP
   exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+
+exec discord
